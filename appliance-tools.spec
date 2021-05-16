@@ -1,15 +1,12 @@
 Name:          appliance-tools
 Summary:       Tools for building Appliances
-Version:       009.0
-Release:       2
+Version:       011.1
+Release:       1
 License:       GPLv2
 Group:         System/Base
 URL:           https://pagure.io/appliance-tools
 
 Source0:       https://releases.pagure.org/%{name}/%{name}-%{version}.tar.bz2
-
-# Patches backported from upstream
-Patch0001:     0001-fstype-is-optional-for-swap-check-mountpoint-also.patch
 
 BuildArch:     noarch
 
