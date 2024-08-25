@@ -1,6 +1,6 @@
 Name:          appliance-tools
 Summary:       Tools for building Appliances
-Version:       011.2
+Version:       011.3
 Release:       1
 License:       GPLv2
 Group:         System/Base
