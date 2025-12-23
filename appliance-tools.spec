@@ -40,7 +40,8 @@ This package also supports building appliance images on OpenMandriva systems.
 # Nothing to do
 
 %install
-%make_install PYTHON=python3 SED_PROGRAM=/bin/sed
+%make_install PYTHON=python3 
+#SED_PROGRAM=/bin/sed
 
 # Delete docs, we'll grab them later
 rm -rf %{buildroot}%{_datadir}/doc/%{name}
