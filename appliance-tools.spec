@@ -56,4 +56,4 @@ rm -rf %{buildroot}%{python3_sitelib}/ec2convert
 %license COPYING
 %{_mandir}/man*/*
 %{_bindir}/appliance-creator
-%{python3_sitelib}/appcreate/
+#{python3_sitelib}/appcreate/
