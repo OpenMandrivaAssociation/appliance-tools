@@ -9,7 +9,7 @@ URL:           https://pagure.io/appliance-tools
 Source0:       https://releases.pagure.org/%{name}/%{name}-%{version}.tar.bz2
 
 BuildArch:     noarch
-
+BuildRequires: make
 BuildRequires: python-devel
 BuildRequires: %{_bindir}/pod2man
 BuildRequires: /bin/sed
